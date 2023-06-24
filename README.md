@@ -24,4 +24,4 @@ $ pip install tensorflow-io
 
 
 ## Acknowledgements
-This code is based on [HairCLIP]([https://github.com/orpatashnik/StyleCLIP](https://github.com/wty-ustc/HairCLIP)https://github.com/wty-ustc/HairCLIP).
+This code is based on [HairCLIP](https://github.com/wty-ustc/HairCLIP)
