@@ -18,7 +18,6 @@ $ pip install git+https://github.com/openai/CLIP.git
 $ pip install tensorflow-io
 ```
 
-
 ## Testing
 
 
