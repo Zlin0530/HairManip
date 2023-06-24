@@ -5,3 +5,5 @@ This repository contains the offical PyTorch implementation of paper:
   
   HairManip：High Quality Hair Manipulation via Hair Element Disentangling
 
+## News
+  * [2023.06.24]
