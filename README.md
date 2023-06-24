@@ -7,4 +7,4 @@
 >  "**HairManip：High Quality Hair Manipulation via Hair Element Disentangling**".
 
 ## News
-**`2023.06.24`**: Our testing code and pretrained model are released. 
+**`2023.06.24`**: We will release our testing code and pretrained model. 
