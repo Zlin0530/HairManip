@@ -18,6 +18,13 @@ pip install git+https://github.com/openai/CLIP.git
 pip install tensorflow-io
 ```
 
+- Download pre-trained models :
+
+  - Download our pre-trained HairManip model from [here]().
+  - Download the CelebA-HQ test set latent codes from [here]().
+
+  
+
 ## Testing
 
 
