@@ -31,6 +31,7 @@ pip install tensorflow-io
 - Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
 - One test latent code is provided in  `./mapper/text/latents.pt`,  Note that all training and test sets of our model are from CelebA-HQ, if you need to infer other images, please use the [e4e](https://github.com/omertov/encoder4editing) encoder to invert the real images.
 ### To use the text editor hair color, run the following command
+
 ```
 python scripts/inference.py --exp_dir=./results --checkpoint_path=../checkpoints/HairManip_model.pt --latents_test_path=./text/latents.pt --editing_type=color --input_type=text --color_description="purple"
 ```
