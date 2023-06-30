@@ -26,7 +26,8 @@ pip install tensorflow-io
   
 
 ## Testing
-
+- The main testing script is placed in `./mapper/scripts/inference.py`.
+- Inference arguments can be found at `./mapper/options/test_options.py`. 
 
 
 ## Acknowledgements
