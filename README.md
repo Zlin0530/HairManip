@@ -20,14 +20,15 @@ pip install tensorflow-io
 
 - Download pre-trained models :
 
-  - Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
-  - Download the CelebA-HQ test set latent codes from [here]().
+  - Download StyleGAN model pretrained on FFHQ from [here](https://drive.google.com/file/d/11r6dZpNXrwqWRckIqeXQmQ9NaLDjRfq7/view?usp=sharing), and then place it into the folder `./pretrained_models` .
+  - Download Pretrained IR-SE50 model from [here](https://drive.google.com/file/d/1On1Tg0FftyHANycWzIyWwDVpJz1ljuSc/view?usp=sharing), and then place it into the folder `./pretrained_models` .
 
   
 
 ## Testing
 - The main testing script is placed in `./mapper/scripts/inference.py`.
-- Inference arguments can be found at `./mapper/options/test_options.py`. 
+- Inference arguments can be found at `./mapper/options/test_options.py`.
+- Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
 
 
 ## Acknowledgements
