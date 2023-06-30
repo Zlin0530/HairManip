@@ -20,7 +20,7 @@ pip install tensorflow-io
 
 - Download pre-trained models :
 
-  - Download our pre-trained HairManip model from [here]().
+  - Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
   - Download the CelebA-HQ test set latent codes from [here]().
 
   
