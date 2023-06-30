@@ -43,7 +43,7 @@ python scripts/inference.py --exp_dir=./results --checkpoint_path=../checkpoints
 python scripts/inference.py --exp_dir=./results --checkpoint_path=../checkpoints/HairManip_model.pt --latents_test_path=./text/latents.pt --editing_type=both --input_type=text_image --hairstyle_description="hairstyle_list.txt" --color_ref_img_test_path=text/refimage
 ```
 
-You can find the generated result images in `./mapper/scripts/inference.py`.
+You can find the generated result images in `./mapper/results`.
 
 ## Acknowledgements
 This code is based on [HairCLIP](https://github.com/wty-ustc/HairCLIP)
