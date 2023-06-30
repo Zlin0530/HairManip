@@ -29,7 +29,7 @@ pip install tensorflow-io
 - The main testing script is placed in `./mapper/scripts/inference.py`.
 - Inference arguments can be found at `./mapper/options/test_options.py`.
 - Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
-- One test latent code is provided in  `./mapper/text/latents.pt`, Note that all real images are inverted by [e4e](https://github.com/omertov/encoder4editing) encoder..
+- One test latent code is provided in  `./mapper/text/latents.pt`, Note that all real images are inverted by [e4e](https://github.com/omertov/encoder4editing) encoder.
 
 
 ## Acknowledgements
