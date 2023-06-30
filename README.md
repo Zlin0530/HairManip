@@ -25,7 +25,8 @@ pip install tensorflow-io
 
   
 
-## Testing
+## Inference
+
 - The main testing script is placed in `./mapper/scripts/inference.py`.
 - Inference arguments can be found at `./mapper/options/test_options.py`.
 - Download our pre-trained HairManip model from [here](https://drive.google.com/file/d/1Wyy46o3yN057rh4BlVDlGziC5jEcg7It/view?usp=sharing), and then place it into the folder `./checkpoints` .
@@ -41,6 +42,8 @@ python scripts/inference.py --exp_dir=./results --checkpoint_path=../checkpoints
 ```
 python scripts/inference.py --exp_dir=./results --checkpoint_path=../checkpoints/HairManip_model.pt --latents_test_path=./text/latents.pt --editing_type=both --input_type=text_image --hairstyle_description="hairstyle_list.txt" --color_ref_img_test_path=text/refimage
 ```
+
+You can find the generated result images in `./mapper/scripts/inference.py`.
 
 ## Acknowledgements
 This code is based on [HairCLIP](https://github.com/wty-ustc/HairCLIP)
