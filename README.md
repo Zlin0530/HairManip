@@ -3,7 +3,7 @@
 
 ## Overview
 > This repository hosts the official PyTorch implementation of the paper:  
->  "**HairManip：High Quality Hair Manipulation via Hair Element Disentangling**", Pattern Recognition.  
+>  "**HairManip：High Quality Hair Manipulation via Hair Element Disentangling**", Pattern Recognition 2023.  
 
 ## News
 **`2023.06.30`**: Our testing code and pretrained model are released.   
