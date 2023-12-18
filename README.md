@@ -47,3 +47,18 @@ You can find the generated result images in `./mapper/results`.
 
 ## Acknowledgements
 This code is based on [HairCLIP](https://github.com/wty-ustc/HairCLIP)
+
+## Citation
+If you use this code for your research, please cite our paper:
+```
+@article{zhao2023hairmanip,
+  title={HairManip: High quality hair manipulation via hair element disentangling},
+  author={Zhao, Huihuang and Zhang, Lin and Rosin, Paul L and Lai, Yu-Kun and Wang, Yaonan},
+  journal={Pattern Recognition},
+  pages={110132},
+  year={2023},
+  publisher={Elsevier}
+}
+```
+
+
